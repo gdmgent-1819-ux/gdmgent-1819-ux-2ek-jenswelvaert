@@ -1,0 +1,3 @@
+# Disallow bots to index this website
+User-agent: *
+Disallow: *

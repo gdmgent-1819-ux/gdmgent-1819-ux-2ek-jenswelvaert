@@ -1,0 +1,26 @@
+
+:root {
+  /**
+   * Colour palette
+   */
+  --c-primary: hsl(190, 100%, 40%);
+
+  /**
+   * Layout
+   */
+  --l-gutter: 1rem;
+
+  /**
+   * Typography
+   */
+  --t-primary: Arial, Helvetica, sans-serif;
+  --t-secondary: Arial, Helvetica, sans-serif;
+  --t-tertiary: monospace;
+
+  --t-headline: var(--t-primary);
+  --t-subtitle: var(--t-primary);
+  --t-body: var(--t-secondary);
+  --t-code: var(--t-tertiary);
+}
+
+

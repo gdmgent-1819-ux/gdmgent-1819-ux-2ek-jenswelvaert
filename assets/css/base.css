@@ -1,0 +1,9 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: var(--t-body);
+  height: inherit;
+  margin: 0;
+}

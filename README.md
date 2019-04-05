@@ -1,5 +1,7 @@
 # Eindopdracht UX
 
-- Studentnaam:
+- Voornaam:
+- Familienaam:
 - Studentnummer: 
 - Klasgroep: 
+- UX prototype link: 

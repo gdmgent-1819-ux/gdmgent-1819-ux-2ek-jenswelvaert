@@ -1,21 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Styleguide</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/styleguide.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="assets/css/styleguide.css"> 
+	<link rel="stylesheet" href="assets/css/main.css">
+  	
+	<title>Style Guide | CodyHouse</title>
 </head>
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
+	<header>
+		<div class="cd-logo"><img src="assets/images/logo_web.png" alt="Logo"></div>
+
+		<nav>
+			<ul class="cd-main-nav">
+				<li><a href="#branding">Branding</a></li>
+				<li><a href="#colors">Colors</a></li>
+				<li><a href="#typography">Typography</a></li>
+				<li><a href="#buttons">Buttons</a></li>
+				<li><a href="#icons">icons</a></li>
+				<li><a href="#form">Form</a></li>
+			</ul> 
+		</nav>
+		
+		
+	</header>
+
+	<main>
+		<h1>Style Guide </h1>
+
+		<section id="colors" class="cd-colors">
+			<h2>Colors</h2>
+
+			<ul>
+				<li class="cd-box">
+					<div class="cd-color-swatch"></div>
+				</li>
+
+				<li class="cd-box">
+					<div class="cd-color-swatch"></div>
+				</li>
+
+				<li class="cd-box">
+					<div class="cd-color-swatch"></div>
+				</li>
+			</ul>
+		</section>
+
+		<section id="typography" class="cd-typography">
+			<h2>Typography</h2>
+
+			<div class="cd-box">
+				<h1>Heading, <span></span></h1>
+				<p>Aa - <span></span>. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate distinctio reprehenderit, autem deleniti ad <a href="#0">voluptatum eaque</a>. Optio ea aperiam nisi distinctio nemo repellat, voluptate fugiat. Quidem neque illum, blanditiis!</p>
+			</div>
+		</section>
+
+		<section id="buttons" class="cd-buttons">
+			<h2>Buttons</h2>
+
+			<div class="cd-box">
+				<li class="smallBtn"><a href="#">Contact</a></li>
+				<li class="mainBtn"><a href="#">Studierichtingen</a></li>
+			</div>
+
+		</section>
+
+		<section id="icons" class="cd-icons">
+			<h2>Icons</h2>
+
+			<ul class="cd-box">
+				<li class="cd-icon-1"><img src="assets/icons/baseline-arrow_back-24px.svg"></li>
+				<li class="cd-icon-2"><img src="assets/icons/baseline-arrow_drop_up-24px.svg"></li>
+				<li class="cd-icon-3"><img src="assets/icons/baseline-book-24px.svg"></li>
+				<li class="cd-icon-4"><img src="assets/icons/baseline-chevron_left-24px.svg"></li>
+				<li class="cd-icon-5"><img src="assets/icons/baseline-chevron_right-24px.svg"></li>
+				<li class="cd-icon-6"><img src="assets/icons/baseline-commute-24px.svg"></li>
+				<li class="cd-icon-7"><img src="assets/icons/baseline-contact_mail-24px.svg"></li>
+				<li class="cd-icon-8"><img src="assets/icons/baseline-info-24px.svg"></li>
+				<li class="cd-icon-9"><img src="assets/icons/baseline-list_alt-24px.svg"></li>
+				<li class="cd-icon-10"><img src="assets/icons/baseline-location_city-24px.svg"></li>
+				<li class="cd-icon-11"><img src="assets/icons/baseline-schedule-24px.svg"></li>
+				<li class="cd-icon-12"><img src="assets/icons/baseline-school-24px.svg"></li>
+			</ul>
+		</section>
+
+		<section id="form" class="cd-form">
+			<h2>Form</h2>
+			
+			<div class="cd-box">
+				<form>
+					<fieldset>
+						<input type="text">
+					</fieldset>
+
+					<fieldset>
+						<div class="cd-input-wrapper">
+							<input type="radio" name="radioButton" id="radio1">
+	      					<label class="radio-label" for="radio1">Choice 1</label>
+      					</div>
+
+						<div class="cd-input-wrapper">
+							<input type="checkbox" id="checkbox1">
+	      					<label class="checkbox-label" for="checkbox1">Option 1</label>
+      					</div>
+
+						<div class="cd-input-wrapper cd-select">
+	      					<select name="select-this" id="select-this">
+					          <option value="0">Select</option>
+					          <option value="1">Option 1</option>
+					          <option value="2">Option 2</option>
+					          <option value="2">Option 3</option>
+					      	</select>
+				      	</div>
+					</fieldset>
+				</form>
+			</div>
+		</section>
+	</main>
 </body>
 </html>
